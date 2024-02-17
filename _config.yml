@@ -20,7 +20,7 @@ title                    : "Jeenykim's"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "jeenykim"
-description              : "An amazing website."
+description              : "The awesome playground."
 url                      : "https://jeenykim.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
