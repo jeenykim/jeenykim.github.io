@@ -231,6 +231,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -239,6 +240,7 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  
 
 
 # Archives
@@ -292,6 +294,10 @@ defaults:
       share: true
       related: true
       show_date: true
+      sidebar_main: true
+      toc: true
+      toc_icon: "bars"
+      toc_sticky: true
       # 생성일자 보이기
 
 date_format: "%Y-%m-%d"
