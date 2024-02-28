@@ -106,7 +106,7 @@ G-1Q5PWNLQK7"
 # Site Author
 author:
   name             : "jeenykim"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/images/2024-2-15-first/w1.jpg"
   bio              : "The **awesome** jeenykim's playground."
   location         : "South Korea"
   email            :
@@ -129,6 +129,9 @@ author:
     # - label: "Instagram"
     #   icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
+    - label: "youtube"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://github.com/jeenykim"
 
 # Site Footer
 footer:
@@ -151,6 +154,9 @@ footer:
     # - label: "Instagram"
     #   icon: "fab fa-fw fa-instagram"
       # url:
+    - label: "youtube"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://github.com/jeenykim"
 
 
 # Reading Files
@@ -231,6 +237,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-redirect-from
   
 
 # mimic GitHub Pages with --safe
@@ -240,6 +247,7 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-redirect-from
   
 
 
@@ -294,11 +302,14 @@ defaults:
       share: true
       related: true
       show_date: true
-      # sidebar_main: true
-      # toc: true
-      # toc_icon: "bars"
-      # toc_sticky: true
       # 생성일자 보이기
+      # sidebar_main: true
+      toc: true
+      toc_sticky: true
+      toc_label: "contents"
+      toc_icon: "fas fa-atom"
+
+      
 
 date_format: "%Y-%m-%d"
 # 년-월-일
