@@ -71,9 +71,11 @@ body {
 .page__title {
   margin-top: 0;
   line-height: 1;
+  font-size: 1.3em;
 
   a {
-    color: $text-color;
+    /*color: $text-color;*/
+    color: #c16ac0;
     text-decoration: none;
   }
 
@@ -110,7 +112,16 @@ body {
 		}
 	}
 
-  p,
+  // p,
+  // li,
+  // dl {
+  //   font-size: 1em;
+  // }
+
+  p{
+    font-size: .8em;
+  }
+
   li,
   dl {
     font-size: 1em;

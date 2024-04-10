@@ -4,6 +4,8 @@ main:
     url: /categories/
   - title: "tag"
     url: /tags/
+  - title: "search"
+    url: /search/
   # - title: "Quick-Start Guide"
   #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   # - title: "About"
@@ -14,3 +16,12 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+
+
+docs:
+  - title: "Main Heading"
+    children:
+      - title: "category"
+        url: /categories/
+      - title: "tag"
+        url: /tags/ 

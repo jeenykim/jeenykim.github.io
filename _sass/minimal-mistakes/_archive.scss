@@ -24,6 +24,8 @@
   a {
     position: relative;
     z-index: 10;
+    font-size: .8em;
+    color:rgb(202, 137, 198);
   }
 
   a[rel="permalink"] {
@@ -50,13 +52,15 @@
   overflow: hidden;
   text-overflow: ellipsis;
 
+ 
+
   a[rel="permalink"]::before {
     content: '';
     position: absolute;
     left: 0;
     top: 0;
     right: 0;
-    bottom: 0;
+    bottom: 0;  
   }
 
   a + a {
@@ -426,7 +430,6 @@
   .feature__wrapper {
     .archive__item-title {
       margin-top: 0.25em;
-      font-size: 1em;
     }
   }
 
