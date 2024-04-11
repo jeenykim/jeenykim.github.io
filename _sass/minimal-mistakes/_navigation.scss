@@ -520,7 +520,12 @@
   .nav__title {
     color: #fff;
     font-size: $type-size-6;
-    background: $primary-color;
+    // background: $primary-color;
+    // 원래
+    background: #a45fa8 transparent;
+    // 1번 직접 방법
+    background: $toc-color;
+    //2번 클래스 만들고 적용
     border-top-left-radius: $border-radius;
     border-top-right-radius: $border-radius;
   }

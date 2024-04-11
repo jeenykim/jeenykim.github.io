@@ -300,6 +300,10 @@ defaults:
       share: true
       related: true
       show_date: true
+      toc: true
+      toc_sticky: true
+      toc_label: "contents"
+      toc_icon: "fas fa-th"
 
 date_format: "%Y-%m-%d"
 # 년-월-일
