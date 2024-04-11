@@ -236,19 +236,24 @@
 
     a {
       position: relative;
+      color:#b03898;
 
+      // 상단우측 네비게이션 텍스트칼라 하단 언더라인수정
       &:before {
         content: "";
         position: absolute;
         left: 0;
         bottom: 0;
-        height: 4px;
-        background: $primary-color;
+        height: 2px;
+        // 라인굵기 조절
+        // background: $primary-color;
+        background: #c980bb;
         width: 100%;
         -webkit-transition: $global-transition;
         transition: $global-transition;
         -webkit-transform: scaleX(0) translate3d(0, 0, 0);
         transform: scaleX(0) translate3d(0, 0, 0); // hide
+        
       }
 
       &:hover:before {

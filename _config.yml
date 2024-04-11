@@ -131,6 +131,9 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/"
+    - label: "youtube"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://github.com/jeenykim"
 
 # Site Footer
 footer:
@@ -153,6 +156,9 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url:
+    - label: "youtube"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://github.com/jeenykim"
 
 
 # Reading Files
